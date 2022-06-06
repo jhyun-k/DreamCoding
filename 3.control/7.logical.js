@@ -23,5 +23,5 @@ console.log(true || false); // true
 console.log(false || true); // true
 console.log(false || false); // false
 
-console.log(!'text');
-console.log(!!'text');
+console.log(!'text'); //문자열은 true니까 true의 부정은 false
+console.log(!!'text'); // 문자열을 boolean값으로 변환한 것곽 같음
