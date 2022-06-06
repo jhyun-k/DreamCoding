@@ -18,8 +18,8 @@
 
 // 생성자 함수 만들기
 
-function Fruit(name,emoji){
-    this.name = name,
+function Fruit(name,emoji){ // 생성자 함수 만드려면 앞글자는 대문자로 
+    this.name = name, // 해당객체를 뜻하는 this 붙여줘야해
     this.emoji = emoji,
     this.display = ()=>{
         console.log(`${this.name} : ${this.emoji}`);
