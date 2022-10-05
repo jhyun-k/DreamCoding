@@ -79,8 +79,8 @@ console.log(texts);
 const numbers = [0,5,4,2,1,10];
 numbers.sort();
 console.log(numbers);
-// < 0 a가 앞으로 정렬 , 오름차순
-// > 0 b가 앞으로 정렬 , 내림차순 
+// < 0 (음수) a가 앞으로 정렬 , 오름차순
+// > 0 (양수) b가 앞으로 정렬 , 내림차순 
 numbers.sort((a,b) => a - b)
 console.log(numbers);
 
